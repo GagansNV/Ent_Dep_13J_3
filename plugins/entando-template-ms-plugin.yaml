@@ -1,0 +1,7 @@
+image: gagansnv/bundlenewon:5.1.3
+dbms: none
+ingressPath: "/entando-template-api"
+healthCheckPath: "/actuator/health"
+roles:
+  - "et-first-role"
+  - "et-second-role"
